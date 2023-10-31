@@ -2,7 +2,7 @@ package day4;
 
 import java.util.Scanner;
 
-public class Developer extends Employees {
+public class Developer extends Employees {//git comment
 	private String dev;
 	public Developer() {		
 	}
