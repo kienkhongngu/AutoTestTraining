@@ -1,0 +1,35 @@
+Bài 1:
+//label[contains(text(), "Click on this check box")]/input[@type="checkbox"]
+
+//label[text()="Default Checked"]/input[@type="checkbox"]
+
+//label[text()="Default Disabled"]/input[@type="checkbox"]
+
+//label[text()="Option 1"]/input[@type="checkbox"]
+
+//label[text()="Option 2"]/input[@type="checkbox"]
+
+//label[text()="Option 3"]/input[@type="checkbox"]
+
+//label[text()="Option 4"]/input[@type="checkbox"]
+
+Bài 2:
+//a[@id="one-way-tab" and contains(@class, "active")]
+//a[@id="round-trip-tab" and not(contains(@class, "active"))]
+//a[@id="multi-city-tab" and not(contains(@class, "active"))]
+//label[text()="Flying from"]
+//label[text()="Flying to"]
+//span[@class="la la-calendar form-icon"]
+//a[contains(@class, "dropdown-toggle") and contains(@class, "dropdown-btn")]
+//div[@class="filter-option-inner-inner"]
+
+Bài 3:
+//select[@class="form-control" and @id="select-demo"]
+
+//select[@id="multi-select" and @multiple="multiple"]
+
+//select[@id="select-demo"]/option[@value="Monday"]
+
+//select[@id="select-demo"]/option[@value="Thursday"]
+
+
