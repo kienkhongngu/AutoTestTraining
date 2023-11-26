@@ -1,0 +1,35 @@
+
+Bài tập xPath Buổi 10
+(Học viên áp dụng các hàm, cấu trúc xPath đã học trong buổi 10)
+Bài 1: vào trang https://alada.vn/tai-khoan/dang-ky.html 
+a.	Tìm xPath các element trên trang đăng ký và fill vào bảng sau
+Tên element (tự đặt tên)	xPath	Note
+textHoVaTen	//label[text()="Họ và tên"]	
+textEmail	//label[text()="Địa chỉ Email"]	
+textNhapLaiEmail	//label[text()="Nhập lại Email"]	
+TextPassword	//label[text()="Mật khẩu"]	
+TextNhaplaiPassword	//label[text()="Nhập lại Mật khẩu"]	
+TextNumberphone	//label[contains(text(), "Điện")]	
+
+b.	Vào trang chỉnh sửa thông tin 
+ Sau đó tìm xPath các element trên trang Thông tin cá nhân và fill vào bảng sau
+Tên element (tự đặt tên)	xPath	Note
+textHo	//label[text()= "Họ"]	
+textTen	//label[text()= "Tên"]	
+checkGioiTinh	//input[@type="radio" and @name="member_gender[]" and @value="1"]	Radio gioi tinh nam
+dateNgaySinh	//input[@name="member_birthday"]	
+dropdownTinhTP	//select[@name="txtCity"]	
+… (mọi người tự đặt tên đến hết)		
+
+Bài 2: vào trang 
+https://demo.seleniumeasy.com/basic-checkbox-demo.html 
+Ở left menu -> click vào Input form -> click vào  Radio Button Demo và tìm xPath của các elements được khoanh tròn trong ảnh sau, điền xPath vào bảng.
+ 
+
+Tên element (tự đặt tên)	xPath	Note
+rdoMale	//input[@type="radio" and @value="Male" and @name="optradio"]	
+rdoFemale	//input[@type="radio" and @value="Female" and @name="optradio"]	
+Radio 0-5	//input[@type="radio" and @value="0 - 5" and @name="ageGroup"]	
+Radio 5-15	//input[@type="radio" and @value="5 - 15" and @name="ageGroup"]	
+Radio 15-50	//input[@type="radio" and @value="15 - 50" and @name="ageGroup"]	
+
