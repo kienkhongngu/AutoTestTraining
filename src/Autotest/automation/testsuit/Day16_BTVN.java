@@ -13,7 +13,7 @@ public class Day16_BTVN extends CommonBase {
         driver = initChromeDriver("http://seleniumpractise.blogspot.com/2019/01/alert-demo.html");
     }
     @Test
-    public void checkAlert(){
+    public void Alert(){
         driver.findElement(By.xpath("//button[@onclick=\"myFunction()\"]")).click();
         pause(10000);
         String msg = driver.switchTo().alert().getText();
@@ -22,6 +22,6 @@ public class Day16_BTVN extends CommonBase {
     }
     @AfterMethod
     public void close(){
-        driver.quit();
+        driver.close();
     }
 }
